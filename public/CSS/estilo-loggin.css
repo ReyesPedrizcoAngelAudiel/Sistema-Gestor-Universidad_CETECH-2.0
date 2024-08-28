@@ -1,0 +1,30 @@
+html {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    padding: 2rem;
+}
+
+.notification {
+    transition: opacity 0.5s ease; /* Agrega una transición suave de 0.5 segundos */
+  }
+  
+.notification.hidden {
+    opacity: 0; /* Cambia la opacidad a 0 cuando se añade la clase 'hidden' */
+    height: 0; /* Opcional: si quieres que la notificación también se colapse */
+    padding: 0; /* Opcional: ajusta el relleno a 0 para evitar que ocupe espacio */
+    margin: 0; /* Opcional: ajusta el margen a 0 para evitar que ocupe espacio */
+}
+
+hr {
+    border: 2px solid black; /* Define el borde como una línea sólida de 2px de grosor y color negro */
+}
+
+.custom-notification {
+    font-size: 0.8em;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
