@@ -51,6 +51,44 @@
                     </div>
                 </form>
             </div>
+            <div class="column is-5">
+                <div class="box has-background-light p-5" 
+                    style="border-radius: 12px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);">
+                    <h1 class="title is-3 has-text-centered has-text-info">Bienvenido</h1>
+                    <h2 class="subtitle is-4 has-text-centered has-text-grey-dark">Roles y accesos</h2>
+                    <div class="content">
+                        <ul style="list-style: none; padding-left: 0;">
+                            <li class="mb-3">
+                                <span class="has-text-weight-bold has-text-danger">Administrador de Escolares:</span><br>
+                                <span class="has-text-grey-dark">📧 escolares@sjuanrio.tecnm.mx | 🔑 12345678</span>
+                            </li>
+                            <li class="mb-3">
+                                <span class="has-text-weight-bold has-text-danger">División de Estudios Profesionales:</span><br>
+                                <span class="has-text-grey-dark">📧 div_estudios@sjuanrio.tecnm.mx | 🔑 12345678</span>
+                            </li>
+                            <li class="mb-3">
+                                <span class="has-text-weight-bold has-text-danger">Profesores:</span><br>
+                                <span class="has-text-grey-dark">📧 axel@docente.com | 🔑 Tecsj+011212</span><br><br>
+                                <p class="has-text-grey">
+                                    📌 <span class="has-text-weight-semibold">Nota:</span> Si agregas un nuevo profesor, su contraseña será: 
+                                    <span class="has-text-weight-bold has-text-info">Tecsj+"Primeros 6 dígitos de su fecha de nacimiento (según CURP)"</span>.
+                                </p>
+                            </li>
+                            <li class="mb-3">
+                                <span class="has-text-weight-bold has-text-danger">Alumnos:</span><br>
+                                <span class="has-text-grey-dark">📧 l20590172@sjuanrio.tecnm.mx | 🔑 Tecsj+011212</span><br><br>
+                                <p class="has-text-grey">
+                                    📌 <span class="has-text-weight-semibold">Nota:</span> Si agregas un nuevo alumno, toma en cuenta lo siguiente:
+                                    <ul class="mt-1 ml-6" style="list-style: disc;">
+                                        <li>📧 Su email será: <span class="has-text-weight-bold has-text-info">l + número de control + @sjuanrio.tecnm.mx</span></li>
+                                        <li>🔑 Su contraseña será: <span class="has-text-weight-bold has-text-info">Tecsj+"Primeros 6 dígitos de su fecha de nacimiento (según CURP)"</span></li>
+                                    </ul>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>

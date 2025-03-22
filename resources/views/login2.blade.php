@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <title>Login | CETECH</title>
+    <title>Login | CETECH XD</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="">
     <script src="https://kit.fontawesome.com/ee9903c79f.js" crossorigin="anonymous"></script>
